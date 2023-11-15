@@ -1,0 +1,30 @@
+.header {
+  width: 100%;
+  height: 130px;
+  background: rgb(255, 214, 0);
+  background: linear-gradient(
+    34deg,
+    rgba(255, 214, 0, 1) 15%,
+    rgba(240, 164, 111, 1) 39%,
+    rgba(225, 223, 221, 1) 69%,
+    rgba(255, 255, 255, 1) 96%
+  );
+}
+.Poster-name {
+  color: rgb(131, 58, 180);
+  font-size: 100px;
+  margin: 0;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.gal-img {
+  border-radius: 50%;
+  animation: mygal 3s infinite;
+}
+@keyframes mygal {
+  100% {
+    transform: rotate(360deg);
+  }
+}
