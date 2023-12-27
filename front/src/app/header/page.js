@@ -1,4 +1,10 @@
-export default function Header(params) {
+"use client";
+import { useRouter } from "next/navigation";
+export default function Header() {
+  const router = useRouter();
+  const handleCilke = () => {
+    router.push("/Users?v=");
+  };
   return (
     <div className="header">
       <div className="logo">
@@ -9,17 +15,16 @@ export default function Header(params) {
         <img
           src="galaxy_303714-4260.avif"
           alt="galaxy"
-          width={80}
-          height={80}
+          width={120}
+          height={120}
           className="gal-img"
         />
       </div>
-      <div>
-        <div>
+      <div className="log-in" onClick={handleCilke}>
+        <div className="log">
           <li>login/</li>
           <p>sing</p>
         </div>
-        <li></li>
       </div>
     </div>
   );
