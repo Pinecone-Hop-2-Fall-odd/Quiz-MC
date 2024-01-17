@@ -1,185 +1,49 @@
 "use client";
-import Header from "../Header/page";
+import Header from "../../component/Header/page";
 import Body from "../Body/page";
 import { useState, useEffect } from "react";
+import React from "react";
+import { useRouter } from "next/navigation";
+import { RxAvatar } from "react-icons/rx";
+// import { AiFillFlag } from "react-icons/ai";
+import { MdCreateNewFolder } from "react-icons/md";
+import Help from "../../component/Help";
 export default function home() {
   const [pageStatus, setPageStatus] = useState("welcome");
+  const router = useRouter();
+  const handleCilke = () => {
+    router.push("/quiz?v=");
+  };
 
-  if (pageStatus == "welcome") {
-    return (
-      <div>
-        <div>
-          <div className="h-[130px] w-[100%] bg-[#83a2ff] border-b-2 border-black border-solid flex items-center justify-between">
-            <div className="logo">
-              <img src="logo.jpeg" width={122} height={130} />
-              <h2 className="Poster-name">Quiz</h2>
+  return (
+    <>
+      <div className="relative">
+        <Help />
+        <div className="pt-[200px] flex justify-center z-1 mb-[100px]">
+          <div className="w-[80%] rounded-[20px] border-2 h-[1000px]  flex-wrap flex items-center justify-center flex-row p-[30px] gap-y-[20px] gap-x-[70px]">
+            <div className="card bg-[url('/anime.jpg')]">
+              <h1 className="tit">ANIME QUIZ</h1>
+              <button className="but">PLAY</button>
             </div>
-            <div>
-              <img
-                src="galaxy_303714-4260.avif"
-                alt="galaxy"
-                width={120}
-                height={120}
-                className=" animate-spin rounded-full"
-              />
+            <div className="card bg-[url('/movie.jpeg')]">
+              <h1 className="tit">MOVIE QUIZ</h1>
+              <button className="but">PLAY</button>
             </div>
-            <div className="flex items-center flex-row-reverse gap-8">
-              <img
-                onClick={() => setPageStatus("profile")}
-                src="image-from-rawpixel-id-6012974-png (1).png/"
-                width={80}
-                height={80}
-              />
-              <a onClick={() => setPageStatus("anime")}>anime</a>
-              <a onClick={() => setPageStatus("game")}>game</a>
-              <a onClick={() => setPageStatus("movie")}>movie</a>
-              <a>create</a>
+            <div className="card bg-[url('/games.jpeg')]">
+              <h1 className="tit">GAME QUIZ</h1>
+              <button className="but">PLAY</button>
             </div>
-          </div>
-          <div className="flex gap-[34px]">
-            <div className="h-[1045px] bg-[#83a2ff] w-[200px]">
-              <h1 className=" border-black border-b-2 border-solid ">home</h1>
-              <h1>Your Quiz's</h1>
-            </div>
-            <div>
-              <h1 className="font-black text-white text-[200px] ">
-                Wellcome to Quiz page
+            <div className="card bg-[url('/random.png')]">
+              <h1 onClick={handleCilke} className="tit">
+                CUSTOM QUIZ
               </h1>
+              <button onClick={handleCilke} className="but">
+                PLAY
+              </button>
             </div>
           </div>
         </div>
       </div>
-    );
-  } else if (pageStatus == "movie") {
-    return (
-      <div>
-        <div>
-          <div className="h-[130px] w-[100%] bg-[#83a2ff] border-b-2 border-black border-solid flex items-center justify-between">
-            <div className="logo">
-              <img src="logo.jpeg" width={122} height={130} />
-              <h2 className="Poster-name">Quiz</h2>
-            </div>
-            <div>
-              <img
-                src="galaxy_303714-4260.avif"
-                alt="galaxy"
-                width={120}
-                height={120}
-                className=" animate-spin rounded-full"
-              />
-            </div>
-            <div className="flex items-center flex-row-reverse gap-8">
-              <img
-                onClick={() => setPageStatus("profile")}
-                src="image-from-rawpixel-id-6012974-png (1).png/"
-                width={80}
-                height={80}
-              />
-              <a onClick={() => setPageStatus("anime")}>anime</a>
-              <a onClick={() => setPageStatus("game")}>game</a>
-              <a onClick={() => setPageStatus("movie")}>movie</a>
-              <a>create</a>
-            </div>
-          </div>
-          <div className="flex ">
-            <div className="h-[1045px] bg-[#83a2ff] w-[200px]">
-              <h1 className=" border-black border-b-2 border-solid ">home</h1>
-              <h1>Your Quiz's</h1>
-            </div>
-            <div className="bg-[#200E3A] w-[100%] h-[1045px] ">
-              <div className="bg-[#7B66FF] w-[147vh] h-[700px] ml-[125px] mt-[100px]"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  } else if (pageStatus == "game") {
-    return (
-      <div>
-        <div>
-          <div className="h-[130px] w-[100%] bg-[#83a2ff] border-b-2 border-black border-solid flex items-center justify-between">
-            <div className="logo">
-              <img src="logo.jpeg" width={122} height={130} />
-              <h2 className="Poster-name">Quiz</h2>
-            </div>
-            <div>
-              <img
-                src="galaxy_303714-4260.avif"
-                alt="galaxy"
-                width={120}
-                height={120}
-                className=" animate-spin rounded-full"
-              />
-            </div>
-            <div className="flex items-center flex-row-reverse gap-8">
-              <img
-                onClick={() => setPageStatus("profile")}
-                src="image-from-rawpixel-id-6012974-png (1).png/"
-                width={80}
-                height={80}
-              />
-              <a onClick={() => setPageStatus("anime")}>anime</a>
-              <a>game</a>
-              <a onClick={() => setPageStatus("movie")}>movie</a>
-              <a>create</a>
-            </div>
-          </div>
-          <div className="flex ">
-            <div className="h-[1045px] bg-[#83a2ff] w-[200px]">
-              <h1 className=" border-black border-b-2 border-solid ">home</h1>
-              <h1>Your Quiz's</h1>
-            </div>
-            <div className="bg-[#200E3A] w-[100%] h-[1045px] ">
-              <div className="bg-[#7B66FF] w-[147vh] h-[700px] ml-[125px] mt-[100px]"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  } else if (pageStatus == "anime") {
-    return (
-      <div>
-        <div>
-          <div className="h-[130px] w-[100%] bg-[#83a2ff] border-b-2 border-black border-solid flex items-center justify-between">
-            <div className="logo">
-              <img src="logo.jpeg" width={122} height={130} />
-              <h2 className="Poster-name">Quiz</h2>
-            </div>
-            <div>
-              <img
-                src="galaxy_303714-4260.avif"
-                alt="galaxy"
-                width={120}
-                height={120}
-                className=" animate-spin rounded-full"
-              />
-            </div>
-            <div className="flex items-center flex-row-reverse gap-8">
-              <img
-                onClick={() => setPageStatus("profile")}
-                src="image-from-rawpixel-id-6012974-png (1).png/"
-                width={80}
-                height={80}
-              />
-              <a>anime</a>
-              <a onClick={() => setPageStatus("game")}>game</a>
-              <a onClick={() => setPageStatus("movie")}>movie</a>
-              <a>create</a>
-            </div>
-          </div>
-          <div className="flex ">
-            <div className="h-[1045px] bg-[#83a2ff] w-[200px]">
-              <h1 className=" border-black border-b-2 border-solid ">home</h1>
-              <h1>Your Quiz's</h1>
-            </div>
-            <div className="bg-[url('/Anime.webp')] w-[100%] h-[1045px] ">
-              <div className="bg-[#7B66FF] w-[147vh] h-[700px] ml-[125px] mt-[100px]"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  } else if (pageStatus == "profile") {
-    return <div></div>;
-  }
+    </>
+  );
 }

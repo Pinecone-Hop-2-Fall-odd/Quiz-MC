@@ -12,6 +12,7 @@ const quizSchema = new mongoose.Schema({
       ],
     },
   ],
+  category: String,
   creatorId: mongoose.Types.ObjectId,
   createdAt: {
     type: Date,

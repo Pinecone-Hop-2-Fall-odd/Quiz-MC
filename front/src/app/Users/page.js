@@ -81,6 +81,10 @@ export default function Login() {
                   }
                   className="h-[40px] rounded-lg border-solid border-black border-2"
                   type="password"
+                  required
+                  minlength="4"
+                  maxlength="8"
+                  size={8}
                 />
               </div>
             </div>

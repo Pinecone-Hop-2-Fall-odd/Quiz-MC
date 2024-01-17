@@ -8,7 +8,7 @@ import { useState } from "react";
 export default function Create() {
   const router = useRouter();
   const handleCilke = () => {
-    router.push("/Users?v=");
+    router.push("/users?v=");
   };
 
   const [password, setPassword] = useState("");
@@ -86,6 +86,7 @@ export default function Create() {
                   onChange={(e) => setPassword(e.target.value)}
                   value={password}
                   placeholder="password"
+                  maxLength={8}
                   className="h-[40px] rounded-lg border-solid border-black border-2"
                 />
               </div>

@@ -3,9 +3,8 @@ import { QuizModel } from "../models/quiz.model.js";
 
 export const createQuiz = async (req, res) => {
   try {
-    const { questions, creatorId } = req.body;
-
-    const quiz = await QuizModel.create({ questions, creatorId });
+    const { questions, creatorId, category } = req.body;
+    const quiz = await QuizModel.create({ questions, creatorId, category });
 
     if (quiz) {
       res.status(200).json({ data: quiz, message: "success" });
@@ -14,7 +13,7 @@ export const createQuiz = async (req, res) => {
     res.status(400).json({ message: err });
   }
 };
-export const playQuiz = async (req, res) => {
+export const getAllQuiz = async (req, res) => {
   try {
     const quizzes = await QuizModel.find();
     res.status(200).json({ quizzes });
