@@ -8,6 +8,10 @@ export default function Help() {
   const animeClick = () => {
     animeRouter.push("games/anime?v=");
   };
+  const movieRouter = useRouter()
+  const movieClick =() =>{
+  movieRouter.push("games/movie?v=")
+  }
 
   return (
     <>
@@ -19,7 +23,7 @@ export default function Help() {
           <button onClick={animeClick} className="tus">
             ANIME
           </button>
-          <button className="tus">MOVIE</button>
+          <button onClick={movieClick} className="tus">MOVIE</button>
         </div>
         <div className="flex items-center flex-col mr-[50px]">
           <h1 className="text-[50px] font-black">CHOOSE</h1>

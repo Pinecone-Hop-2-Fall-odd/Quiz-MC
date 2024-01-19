@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 
 .header {
   width: 100%;
