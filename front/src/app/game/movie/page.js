@@ -3,40 +3,38 @@ import { useState, useEffect } from "react";
 import Image from "next/image";
 // import { AudioPlayer } from "@/comp/audio-player";
 import { useRouter } from "next/navigation";
-import { MOIVE_QUESTIONS } from "@/quizData/moive/moive";
- 
+import { MOIVE_QUESTIONS } from "../datas/data.js";
+
 const shuffle = (array) => {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [array[i], array[j]] = [array[j], array[i]];
   }
-  
+
   return array;
 };
- 
+
 export default function moive() {
   const Router = useRouter();
   const [answer, setAnswer] = useState([]);
- 
+
   // const fetchDate = async () => {
- 
+
   // }
   useEffect(() => {
     const newquestion = shuffle(MOIVE_QUESTIONS);
     setAnswer(newquestion);
     // fetchDate();
   }, [MOIVE_QUESTIONS]);
- 
+
   // state
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [finish, setFinish] = useState(false);
-  
- 
- 
+
   if (answer.length === 0) {
-    return <p>"...Loading"</p>
+    return <p>"...Loading"</p>;
   }
- 
+
   return (
     <div className=" bg-[url('/anime.jpeg')] bg-cover flex justify-center">
       <div
@@ -55,14 +53,12 @@ export default function moive() {
                 )}
               </div>
               {answer[currentQuestion].type === "audio" && (
-                <AudioPlayer
-                  src={`/${answer[currentQuestion].source}`}
-                />
+                <AudioPlayer src={`/${answer[currentQuestion].source}`} />
               )}
- 
+
               <h1 className="mt-[50px] border-b-[2px] mb-[30px] titi text-[50px] text-[#F7424D]">{`${answer[currentQuestion].question}`}</h1>
             </div>
- 
+
             <div className="w-[100%] flex justify-center  items-center flex-row  ">
               {answer[currentQuestion].answers.map((ans) => {
                 return (
@@ -94,4 +90,3 @@ export default function moive() {
     </div>
   );
 }
- 
