@@ -117,7 +117,7 @@ export const MOIVE_QUESTIONS = [
     ],
   },
   {
-    source: "movie/9.png",
+    source: "movie/11.jpg",
     question: "The story of the game is easy to understand",
     type: "image",
     answers: [
@@ -140,7 +140,7 @@ export const MOIVE_QUESTIONS = [
     ],
   },
   {
-    source: "movie/2.jpeg",
+    source: "movie/2.jpg",
     question: "what in the puss in boots character",
     type: "image",
     answers: [
@@ -163,7 +163,7 @@ export const MOIVE_QUESTIONS = [
     ],
   },
   {
-    source: "movie/3.jpeg",
+    source: "movie/3.jpg",
     question: "what animal in the dragon get married",
     type: "image",
     answers: [
@@ -255,93 +255,93 @@ export const MOIVE_QUESTIONS = [
     ],
   },
   {
-    source: "",
-    question: "",
+    source: "moive/12.jpeg",
+    question: "what nickname im the mr white?",
     type: "image",
     answers: [
       {
-        answer: "",
+        answer: "hanc",
         inCorrect: false,
       },
       {
-        answer: "",
+        answer: "Heisenberg",
+        inCorrect: true,
+      },
+      {
+        answer: "Tuco",
         inCorrect: false,
       },
       {
-        answer: "",
-        inCorrect: false,
-      },
-      {
-        answer: "",
+        answer: "Gas",
         inCorrect: false,
       },
     ],
   },
   {
-    source: "",
-    question: "",
+    source: "moive/13.jpeg",
+    question: "What does a breaking bad mr white do?",
     type: "image",
     answers: [
       {
-        answer: "",
+        answer: "vape",
         inCorrect: false,
       },
       {
-        answer: "",
+        answer: "black tobacco",
         inCorrect: false,
       },
       {
-        answer: "",
-        inCorrect: false,
+        answer: "met",
+        inCorrect: true,
       },
       {
-        answer: "",
+        answer: "poison",
         inCorrect: false,
       },
     ],
   },
   {
-    source: "",
-    question: "",
+    source: "moive/mi-1.webp",
+    question: "The Avengers endgame the great game Who wins by death?",
     type: "image",
     answers: [
       {
-        answer: "",
+        answer: "iron men",
+        inCorrect: true,
+      },
+      {
+        answer: "thor",
         inCorrect: false,
       },
       {
-        answer: "",
+        answer: "halk",
         inCorrect: false,
       },
       {
-        answer: "",
-        inCorrect: false,
-      },
-      {
-        answer: "",
+        answer: "super men",
         inCorrect: false,
       },
     ],
   },
   {
-    source: "",
-    question: "",
+    source: "moive/mi-2.jpg",
+    question: "What is the main meaning of fight club moive?",
     type: "image",
     answers: [
       {
-        answer: "",
+        answer: "hero",
         inCorrect: false,
       },
       {
-        answer: "",
+        answer: "real men",
+        inCorrect: true,
+      },
+      {
+        answer: "fight",
         inCorrect: false,
       },
       {
-        answer: "",
-        inCorrect: false,
-      },
-      {
-        answer: "",
+        answer: "crazy men",
         inCorrect: false,
       },
     ],
@@ -350,7 +350,7 @@ export const MOIVE_QUESTIONS = [
 
 export const ANIME_QUESTIONS = [
   {
-    source: "dragon_ball.jpeg",
+    source: "anime-full/dragon_ball.jpeg",
     question: "What is this real name?",
     type: "image",
     answers: [
@@ -374,21 +374,21 @@ export const ANIME_QUESTIONS = [
     ],
   },
   {
-    source: "anime-s/an-2.jpg",
-    question: "What is the name of this character from death note anime?",
+    source: "anime-full/ani-1.jpg",
+    question: "What is the name of this character from sword art online anime?",
     type: "image",
     answers: [
       {
-        answer: "Ryuk",
+        answer: "Eugeo",
         isCorrect: true,
       },
 
       {
-        answer: "Mello",
+        answer: "kirito",
         isCorrect: false,
       },
       {
-        answer: "Mikami",
+        answer: "Asuna",
         isCorrect: false,
       },
       {
@@ -398,7 +398,7 @@ export const ANIME_QUESTIONS = [
     ],
   },
   {
-    source: "Shadow.jpeg",
+    source: "anime-full/Shadow.jpeg",
     question: "What is the name of this anime?",
     type: "image",
     answers: [
@@ -422,21 +422,21 @@ export const ANIME_QUESTIONS = [
     ],
   },
   {
-    source: "anime-s/an-4.webp",
+    source: "anime-full/ani-3.png",
     question: "What is the name of this character",
     type: "image",
     answers: [
       {
-        answer: "Hakoda",
+        answer: "Akabane",
         isCorrect: false,
       },
 
       {
-        answer: "Draken",
+        answer: "Koro sensei",
         isCorrect: false,
       },
       {
-        answer: "Baji san",
+        answer: "Nagisa",
         isCorrect: true,
       },
       {
@@ -447,23 +447,23 @@ export const ANIME_QUESTIONS = [
   },
   {
     source: "anime-s/an-5.png",
-    question: "What is the main meaning of Totoro anime?",
+    question: "What is the main meaning of one piece anime?",
     type: "image",
     answers: [
       {
         answer: "Over imagination",
-        isCorrect: true,
+        isCorrect: false,
       },
       {
         answer: "Adventure",
         isCorrect: false,
       },
       {
-        answer: "Love",
-        isCorrect: false,
+        answer: "dream",
+        isCorrect: true,
       },
       {
-        answer: "Friendship",
+        answer: "love",
         isCorrect: false,
       },
     ],
@@ -492,51 +492,540 @@ export const ANIME_QUESTIONS = [
     ],
   },
   {
-    source: "anime-s/an-7.webp",
-    question: "What is Doraemon's favorite dessert?",
+    source: "anime-full/full.jpeg",
+    question: "what is  anime name?",
     type: "image",
     answers: [
       {
-        answer: "Dorayaki",
+        answer: "spy x family",
         isCorrect: true,
       },
       {
-        answer: "Mochi",
+        answer: "seven deadly sins ",
         isCorrect: false,
       },
 
       {
-        answer: "Purin",
+        answer: "fullmetal alchemist",
         isCorrect: false,
       },
       {
-        answer: "Dango",
+        answer: "i'm spider so what",
         isCorrect: false,
       },
     ],
   },
   {
     source: "anime-s/an-8.webp",
-    question: "What is the name of this sword of Zoro?",
+    question: "What is the name of this girlfirend of Aijou Rentarou?",
     type: "image",
     answers: [
       {
-        answer: "Dual Katana",
-        isCorrect: false,
+        answer: "Eiai Nano",
+        isCorrect: true,
       },
 
       {
-        answer: "Yubashiri",
+        answer: "Yakuzen Kusuri",
         isCorrect: false,
       },
       {
-        answer: "Shusui",
+        answer: "Hanazono Hakari",
         isCorrect: true,
       },
       {
-        answer: " Seppuku Blade",
+        answer: " zoro",
         isCorrect: false,
       },
     ],
   },
+  {
+    source:"anime-full/ani-4.jpeg",
+    question:"epic fight's",
+    type:"image",
+    answers:[
+      {answer:" saitama",
+      inCorrect:false,
+      },
+      {answer:"vegeta",
+      inCorrect:true,
+      },
+    ]
+  },
+  {
+    source:"anime-full/ani-2.webp",
+    question:"what is devil fruit is name?",
+    type:"image",
+    answers:[
+      {answer:"Bari Bari no mi",
+      inCorrect:true,
+      },
+      {answer:"gomu gomu no mi",
+      inCorrect:false,
+      },
+      {answer:"bara bara no mi",
+      inCorrect:false,
+      },
+      {answer:"hito hito no mi",
+      inCorrect:false,
+      },
+    ]
+  },
+  {
+    source:"anime-full/ani-6.jpg",
+    question:"killua grandFather name?",
+    type:"image",
+    answers:[
+      {answer:"Alluka Zoldyck",
+      inCorrect:false,
+      },
+      {answer:"Illumi Zoldyck",
+      inCorrect:false,
+      },
+      {answer:"Silva Zoldyck",
+      inCorrect:false,
+      },
+      {answer:"Zeno Zoldyck",
+      inCorrect:true,
+      },
+    ]
+  },
+  {
+    source:"anime-full/ani-7.png",
+    question:"your name anime creator name?",
+    type:"image",
+    answers:[
+      {answer:"Makoto Shinkai",
+      inCorrect:true,
+      },
+      {answer:"Eiichiro Oda",
+      inCorrect:false,
+      },
+      {answer:"Yoshihiro Togashi",
+      inCorrect:false,
+      },
+      {answer:"Akira Toriyama",
+      inCorrect:false,
+      },
+    ]
+  },
+  {
+    source:"anime-full/ani-6.jpg",
+    question:"What is the main meaning of Weathering with You anime?",
+    type:"image",
+    answers:[
+      {answer:"Weathering",
+      inCorrect:false,
+      },
+      {answer:"love",
+      inCorrect:true,
+      },
+      {answer:"dream",
+      inCorrect:false,
+      },
+      {answer:"is noting",
+      inCorrect:false,
+      },
+    ]
+  },
+  {
+    source:"anime-full/ani-8.jpeg",
+    question:"What is the main meaning of lookISM anime?",
+    type:"image",
+    answers:[
+      {answer:"dream",
+      inCorrect:false,
+      },
+      {answer:"love",
+      inCorrect:false,
+      },
+      {answer:"discrimination",
+      inCorrect:true,
+      },
+      {answer:"power",
+      inCorrect:false,
+      },
+    ]
+  },
+  {
+    source:"anime-full/ani-9.jpeg",
+    question:"Haikyu high speed",
+    type:"image",
+    answers:[
+      {answer:"Tobio Kageyama",
+      inCorrect:false,
+      },
+      {answer:"Shoyo Hinata",
+      inCorrect:false,
+      },
+      {answer:"Tetsuro Kuroo",
+      inCorrect:true,
+      },
+      {answer:"Toru Oikawa",
+      inCorrect:false,
+      },
+    ]
+  },
 ];
+
+export const GAME_QUESTIONS = [
+  {
+    source:"Game/game-1.png",
+    question:"Mario first game?",
+    type:"image",
+    answers:[
+      {
+        answer:"Donkey Hong",
+        inCorrect:true,
+      },
+      {
+        answer:"Mario Bros",
+        inCorrect:false,
+      },
+      {
+        answer:"Super Mario",
+        inCorrect:false,
+      },
+      {
+        answer:"Super Mario",
+        inCorrect:false,
+      },
+    ],
+    source:"Game/game-2.jpeg",
+    question:"what is the chapter skin",
+    type:"image",
+    answers:[
+      {
+        answer:"burno",
+        inCorrect:false,
+      },
+      {
+        answer:"alucart",
+        inCorrect:true,
+      },
+      {
+        answer:"tigril",
+        inCorrect:false,
+      },
+      {
+        answer:"balmond",
+        inCorrect:false,
+      },
+    ],
+    source:"Game/game-5.jpg",
+    question:"Tetris company counter?",
+    type:"image",
+    answers:[
+      {
+        answer:"england",
+        inCorrect:false,
+      },
+      {
+        answer:"american",
+        inCorrect:false,
+      },
+      {
+        answer:"russia",
+        inCorrect:true,
+      },
+      {
+        answer:"japan",
+        inCorrect:false,
+      },
+    ], 
+    source:"Game/game-4.jpeg",
+    question:"what block is the minecraft",
+    type:"image",
+    answers:[
+      {
+        answer:"triangle",
+        inCorrect:false,
+      },
+      {
+        answer:"ball",
+        inCorrect:false,
+      },
+      {
+        answer:"tsilnder",
+        inCorrect:false,
+      },
+      {
+        answer:"cube",
+        inCorrect:true,
+      },
+    ],
+    source:"Game/game-6.png",
+    question:"terraria size",
+    type:"image",
+    answers:[
+      {
+        answer:"1D",
+        inCorrect:false,
+      },
+      {
+        answer:"2D",
+        inCorrect:true,
+      },
+      {
+        answer:"3D",
+        inCorrect:false,
+      },
+      {
+        answer:"4D",
+        inCorrect:false,
+      },
+    ],
+    source:"Game/game-3.jpg",
+    question:"What do dota and mobile legends have in common?",
+    type:"image",
+    answers:[
+      {
+        answer:"all",
+        inCorrect:true,
+      },
+      {
+        answer:"pc&mobile",
+        inCorrect:false,
+      },
+      {
+        answer:"hour ",
+        inCorrect:false,
+      },
+      {
+        answer:"game play",
+        inCorrect:false,
+      },
+    ],
+    source:"",
+    question:"",
+    type:"image",
+    answers:[
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+    ],
+    source:"",
+    question:"",
+    type:"image",
+    answers:[
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+    ],
+    source:"",
+    question:"",
+    type:"image",
+    answers:[
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+    ],
+    source:"",
+    question:"",
+    type:"image",
+    answers:[
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+    ],
+    source:"",
+    question:"",
+    type:"image",
+    answers:[
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+    ],
+    source:"",
+    question:"",
+    type:"image",
+    answers:[
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+    ],
+    source:"",
+    question:"",
+    type:"image",
+    answers:[
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+    ],
+    source:"",
+    question:"",
+    type:"image",
+    answers:[
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+    ],
+    source:"",
+    question:"",
+    type:"image",
+    answers:[
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+    ],
+    source:"",
+    question:"",
+    type:"image",
+    answers:[
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+    ],
+    source:"",
+    question:"",
+    type:"image",
+    answers:[
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+      {
+        answer:"",
+        inCorrect:false,
+      },
+    ],
+  }
+]
