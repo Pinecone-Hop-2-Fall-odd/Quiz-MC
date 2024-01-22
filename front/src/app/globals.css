@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
-  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap");
 
 .header {
   width: 100%;
@@ -220,4 +220,8 @@ body {
 .lo {
   height: 140px;
   border-radius: 30px;
+}
+
+.ans {
+  font-family: "Nanum Myeongjo", serif;
 }

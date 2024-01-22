@@ -1,6 +1,6 @@
 export const MOIVE_QUESTIONS = [
   {
-    source: "movie/8.webp",
+    source: "moive/8.webp",
     question: "What year was the titanic released?",
     type: "image",
     answers: [
@@ -24,7 +24,7 @@ export const MOIVE_QUESTIONS = [
     ],
   },
   {
-    source: "movie/5.webp",
+    source: "moive/5.webp",
     question: "What movies are in the IMDb top 250?",
     type: "image",
     answers: [
@@ -48,7 +48,7 @@ export const MOIVE_QUESTIONS = [
     ],
   },
   {
-    source: "movie/4.jpg",
+    source: "moive/4.jpg",
     question: "What name is the next season of the hobbit",
     type: "image",
     answers: [
@@ -71,7 +71,7 @@ export const MOIVE_QUESTIONS = [
     ],
   },
   {
-    source: "movie/1.webp",
+    source: "moive/1.webp",
     question: "what is the godfather imdb rating",
     type: "image",
     answers: [
@@ -94,7 +94,7 @@ export const MOIVE_QUESTIONS = [
     ],
   },
   {
-    source: "movie/7.jpg",
+    source: "moive/7.jpg",
     question: "In what year was the first Oscar ceremony held?",
     type: "image",
     answers: [
@@ -117,7 +117,7 @@ export const MOIVE_QUESTIONS = [
     ],
   },
   {
-    source: "movie/11.jpg",
+    source: "moive/11.jpg",
     question: "The story of the game is easy to understand",
     type: "image",
     answers: [
@@ -140,7 +140,7 @@ export const MOIVE_QUESTIONS = [
     ],
   },
   {
-    source: "movie/2.jpg",
+    source: "moive/2.jpg",
     question: "what in the puss in boots character",
     type: "image",
     answers: [
@@ -163,7 +163,7 @@ export const MOIVE_QUESTIONS = [
     ],
   },
   {
-    source: "movie/3.jpg",
+    source: "moive/3.jpg",
     question: "what animal in the dragon get married",
     type: "image",
     answers: [
@@ -446,7 +446,7 @@ export const ANIME_QUESTIONS = [
     ],
   },
   {
-    source: "anime-s/an-5.png",
+    source: "anime-full/one-piece.jpg",
     question: "What is the main meaning of one piece anime?",
     type: "image",
     answers: [
@@ -469,7 +469,7 @@ export const ANIME_QUESTIONS = [
     ],
   },
   {
-    source: "anime-s/an-6.webp",
+    source: "anime-full/ani-6.jpg",
     question: "What is the name of character",
     type: "image",
     answers: [
@@ -516,7 +516,7 @@ export const ANIME_QUESTIONS = [
     ],
   },
   {
-    source: "anime-s/an-8.webp",
+    source: "anime-full/ani-5.png",
     question: "What is the name of this girlfirend of Aijou Rentarou?",
     type: "image",
     answers: [
@@ -540,492 +540,440 @@ export const ANIME_QUESTIONS = [
     ],
   },
   {
-    source:"anime-full/ani-4.jpeg",
-    question:"epic fight's",
-    type:"image",
-    answers:[
-      {answer:" saitama",
-      inCorrect:false,
-      },
-      {answer:"vegeta",
-      inCorrect:true,
-      },
-    ]
+    source: "anime-full/ani-4.jpg",
+    question: "epic fight's",
+    type: "image",
+    answers: [
+      { answer: " saitama", inCorrect: false },
+      { answer: "vegeta", inCorrect: true },
+    ],
   },
   {
-    source:"anime-full/ani-2.webp",
-    question:"what is devil fruit is name?",
-    type:"image",
-    answers:[
-      {answer:"Bari Bari no mi",
-      inCorrect:true,
-      },
-      {answer:"gomu gomu no mi",
-      inCorrect:false,
-      },
-      {answer:"bara bara no mi",
-      inCorrect:false,
-      },
-      {answer:"hito hito no mi",
-      inCorrect:false,
-      },
-    ]
+    source: "anime-full/ani-2.webp",
+    question: "what is devil fruit is name?",
+    type: "image",
+    answers: [
+      { answer: "Bari Bari no mi", inCorrect: true },
+      { answer: "gomu gomu no mi", inCorrect: false },
+      { answer: "bara bara no mi", inCorrect: false },
+      { answer: "hito hito no mi", inCorrect: false },
+    ],
   },
   {
-    source:"anime-full/ani-6.jpg",
-    question:"killua grandFather name?",
-    type:"image",
-    answers:[
-      {answer:"Alluka Zoldyck",
-      inCorrect:false,
-      },
-      {answer:"Illumi Zoldyck",
-      inCorrect:false,
-      },
-      {answer:"Silva Zoldyck",
-      inCorrect:false,
-      },
-      {answer:"Zeno Zoldyck",
-      inCorrect:true,
-      },
-    ]
+    source: "anime-full/10.jpeg",
+    question: "killua grandFather name?",
+    type: "image",
+    answers: [
+      { answer: "Alluka Zoldyck", inCorrect: false },
+      { answer: "Illumi Zoldyck", inCorrect: false },
+      { answer: "Silva Zoldyck", inCorrect: false },
+      { answer: "Zeno Zoldyck", inCorrect: true },
+    ],
   },
   {
-    source:"anime-full/ani-7.png",
-    question:"your name anime creator name?",
-    type:"image",
-    answers:[
-      {answer:"Makoto Shinkai",
-      inCorrect:true,
-      },
-      {answer:"Eiichiro Oda",
-      inCorrect:false,
-      },
-      {answer:"Yoshihiro Togashi",
-      inCorrect:false,
-      },
-      {answer:"Akira Toriyama",
-      inCorrect:false,
-      },
-    ]
+    source: "anime-full/ani-7.png",
+    question: "your name anime creator name?",
+    type: "image",
+    answers: [
+      { answer: "Makoto Shinkai", inCorrect: true },
+      { answer: "Eiichiro Oda", inCorrect: false },
+      { answer: "Yoshihiro Togashi", inCorrect: false },
+      { answer: "Akira Toriyama", inCorrect: false },
+    ],
   },
   {
-    source:"anime-full/ani-6.jpg",
-    question:"What is the main meaning of Weathering with You anime?",
-    type:"image",
-    answers:[
-      {answer:"Weathering",
-      inCorrect:false,
-      },
-      {answer:"love",
-      inCorrect:true,
-      },
-      {answer:"dream",
-      inCorrect:false,
-      },
-      {answer:"is noting",
-      inCorrect:false,
-      },
-    ]
+    source: "anime-full/ani-6.jpg",
+    question: "What is the main meaning of Weathering with You anime?",
+    type: "image",
+    answers: [
+      { answer: "Weathering", inCorrect: false },
+      { answer: "love", inCorrect: true },
+      { answer: "dream", inCorrect: false },
+      { answer: "is noting", inCorrect: false },
+    ],
   },
   {
-    source:"anime-full/ani-8.jpeg",
-    question:"What is the main meaning of lookISM anime?",
-    type:"image",
-    answers:[
-      {answer:"dream",
-      inCorrect:false,
-      },
-      {answer:"love",
-      inCorrect:false,
-      },
-      {answer:"discrimination",
-      inCorrect:true,
-      },
-      {answer:"power",
-      inCorrect:false,
-      },
-    ]
+    source: "anime-full/ani-8.jpg",
+    question: "What is the main meaning of lookISM anime?",
+    type: "image",
+    answers: [
+      { answer: "dream", inCorrect: false },
+      { answer: "love", inCorrect: false },
+      { answer: "discrimination", inCorrect: true },
+      { answer: "power", inCorrect: false },
+    ],
   },
   {
-    source:"anime-full/ani-9.jpeg",
-    question:"Haikyu high speed",
-    type:"image",
-    answers:[
-      {answer:"Tobio Kageyama",
-      inCorrect:false,
-      },
-      {answer:"Shoyo Hinata",
-      inCorrect:false,
-      },
-      {answer:"Tetsuro Kuroo",
-      inCorrect:true,
-      },
-      {answer:"Toru Oikawa",
-      inCorrect:false,
-      },
-    ]
+    source: "anime-full/ani-9.jpg",
+    question: "Haikyu high speed",
+    type: "image",
+    answers: [
+      { answer: "Tobio Kageyama", inCorrect: false },
+      { answer: "Shoyo Hinata", inCorrect: false },
+      { answer: "Tetsuro Kuroo", inCorrect: true },
+      { answer: "Toru Oikawa", inCorrect: false },
+    ],
   },
 ];
 
 export const GAME_QUESTIONS = [
   {
-    source:"Game/game-1.png",
-    question:"Mario first game?",
-    type:"image",
-    answers:[
+    source: "Game/game-1.png",
+    question: "Mario first game?",
+    type: "image",
+    answers: [
       {
-        answer:"Donkey Hong",
-        inCorrect:true,
+        answer: "Donkey Hong",
+        inCorrect: true,
       },
       {
-        answer:"Mario Bros",
-        inCorrect:false,
+        answer: "Mario Bros",
+        inCorrect: false,
       },
       {
-        answer:"Super Mario",
-        inCorrect:false,
+        answer: "Super Mario",
+        inCorrect: false,
       },
       {
-        answer:"Super Mario",
-        inCorrect:false,
-      },
-    ],
-    source:"Game/game-2.jpeg",
-    question:"what is the chapter skin",
-    type:"image",
-    answers:[
-      {
-        answer:"burno",
-        inCorrect:false,
-      },
-      {
-        answer:"alucart",
-        inCorrect:true,
-      },
-      {
-        answer:"tigril",
-        inCorrect:false,
-      },
-      {
-        answer:"balmond",
-        inCorrect:false,
+        answer: "Super Mario",
+        inCorrect: false,
       },
     ],
-    source:"Game/game-5.jpg",
-    question:"Tetris company counter?",
-    type:"image",
-    answers:[
+    source: "Game/game-2.jpeg",
+    question: "what is the chapter skin",
+    type: "image",
+    answers: [
       {
-        answer:"england",
-        inCorrect:false,
+        answer: "burno",
+        inCorrect: false,
       },
       {
-        answer:"american",
-        inCorrect:false,
+        answer: "alucart",
+        inCorrect: true,
       },
       {
-        answer:"russia",
-        inCorrect:true,
+        answer: "tigril",
+        inCorrect: false,
       },
       {
-        answer:"japan",
-        inCorrect:false,
-      },
-    ], 
-    source:"Game/game-4.jpeg",
-    question:"what block is the minecraft",
-    type:"image",
-    answers:[
-      {
-        answer:"triangle",
-        inCorrect:false,
-      },
-      {
-        answer:"ball",
-        inCorrect:false,
-      },
-      {
-        answer:"tsilnder",
-        inCorrect:false,
-      },
-      {
-        answer:"cube",
-        inCorrect:true,
+        answer: "balmond",
+        inCorrect: false,
       },
     ],
-    source:"Game/game-6.png",
-    question:"terraria size",
-    type:"image",
-    answers:[
+    source: "Game/game-5.jpg",
+    question: "Tetris company counter?",
+    type: "image",
+    answers: [
       {
-        answer:"1D",
-        inCorrect:false,
+        answer: "england",
+        inCorrect: false,
       },
       {
-        answer:"2D",
-        inCorrect:true,
+        answer: "american",
+        inCorrect: false,
       },
       {
-        answer:"3D",
-        inCorrect:false,
+        answer: "russia",
+        inCorrect: true,
       },
       {
-        answer:"4D",
-        inCorrect:false,
-      },
-    ],
-    source:"Game/game-3.jpg",
-    question:"What do dota and mobile legends have in common?",
-    type:"image",
-    answers:[
-      {
-        answer:"all",
-        inCorrect:true,
-      },
-      {
-        answer:"pc&mobile",
-        inCorrect:false,
-      },
-      {
-        answer:"hour ",
-        inCorrect:false,
-      },
-      {
-        answer:"game play",
-        inCorrect:false,
+        answer: "japan",
+        inCorrect: false,
       },
     ],
-    source:"",
-    question:"",
-    type:"image",
-    answers:[
+    source: "Game/game-4.jpeg",
+    question: "what block is the minecraft",
+    type: "image",
+    answers: [
       {
-        answer:"",
-        inCorrect:false,
+        answer: "triangle",
+        inCorrect: false,
       },
       {
-        answer:"",
-        inCorrect:false,
+        answer: "ball",
+        inCorrect: false,
       },
       {
-        answer:"",
-        inCorrect:false,
+        answer: "tsilnder",
+        inCorrect: false,
       },
       {
-        answer:"",
-        inCorrect:false,
-      },
-    ],
-    source:"",
-    question:"",
-    type:"image",
-    answers:[
-      {
-        answer:"",
-        inCorrect:false,
-      },
-      {
-        answer:"",
-        inCorrect:false,
-      },
-      {
-        answer:"",
-        inCorrect:false,
-      },
-      {
-        answer:"",
-        inCorrect:false,
+        answer: "cube",
+        inCorrect: true,
       },
     ],
-    source:"",
-    question:"",
-    type:"image",
-    answers:[
+    source: "Game/game-6.png",
+    question: "terraria size",
+    type: "image",
+    answers: [
       {
-        answer:"",
-        inCorrect:false,
+        answer: "1D",
+        inCorrect: false,
       },
       {
-        answer:"",
-        inCorrect:false,
+        answer: "2D",
+        inCorrect: true,
       },
       {
-        answer:"",
-        inCorrect:false,
+        answer: "3D",
+        inCorrect: false,
       },
       {
-        answer:"",
-        inCorrect:false,
-      },
-    ],
-    source:"",
-    question:"",
-    type:"image",
-    answers:[
-      {
-        answer:"",
-        inCorrect:false,
-      },
-      {
-        answer:"",
-        inCorrect:false,
-      },
-      {
-        answer:"",
-        inCorrect:false,
-      },
-      {
-        answer:"",
-        inCorrect:false,
+        answer: "4D",
+        inCorrect: false,
       },
     ],
-    source:"",
-    question:"",
-    type:"image",
-    answers:[
+    source: "Game/game-3.jpg",
+    question: "What do dota and mobile legends have in common?",
+    type: "image",
+    answers: [
       {
-        answer:"",
-        inCorrect:false,
+        answer: "all",
+        inCorrect: true,
       },
       {
-        answer:"",
-        inCorrect:false,
+        answer: "pc&mobile",
+        inCorrect: false,
       },
       {
-        answer:"",
-        inCorrect:false,
+        answer: "hour ",
+        inCorrect: false,
       },
       {
-        answer:"",
-        inCorrect:false,
-      },
-    ],
-    source:"",
-    question:"",
-    type:"image",
-    answers:[
-      {
-        answer:"",
-        inCorrect:false,
-      },
-      {
-        answer:"",
-        inCorrect:false,
-      },
-      {
-        answer:"",
-        inCorrect:false,
-      },
-      {
-        answer:"",
-        inCorrect:false,
+        answer: "game play",
+        inCorrect: false,
       },
     ],
-    source:"",
-    question:"",
-    type:"image",
-    answers:[
+    source: "",
+    question: "",
+    type: "image",
+    answers: [
       {
-        answer:"",
-        inCorrect:false,
+        answer: "",
+        inCorrect: false,
       },
       {
-        answer:"",
-        inCorrect:false,
+        answer: "",
+        inCorrect: false,
       },
       {
-        answer:"",
-        inCorrect:false,
+        answer: "",
+        inCorrect: false,
       },
       {
-        answer:"",
-        inCorrect:false,
-      },
-    ],
-    source:"",
-    question:"",
-    type:"image",
-    answers:[
-      {
-        answer:"",
-        inCorrect:false,
-      },
-      {
-        answer:"",
-        inCorrect:false,
-      },
-      {
-        answer:"",
-        inCorrect:false,
-      },
-      {
-        answer:"",
-        inCorrect:false,
+        answer: "",
+        inCorrect: false,
       },
     ],
-    source:"",
-    question:"",
-    type:"image",
-    answers:[
+    source: "",
+    question: "",
+    type: "image",
+    answers: [
       {
-        answer:"",
-        inCorrect:false,
+        answer: "",
+        inCorrect: false,
       },
       {
-        answer:"",
-        inCorrect:false,
+        answer: "",
+        inCorrect: false,
       },
       {
-        answer:"",
-        inCorrect:false,
+        answer: "",
+        inCorrect: false,
       },
       {
-        answer:"",
-        inCorrect:false,
-      },
-    ],
-    source:"",
-    question:"",
-    type:"image",
-    answers:[
-      {
-        answer:"",
-        inCorrect:false,
-      },
-      {
-        answer:"",
-        inCorrect:false,
-      },
-      {
-        answer:"",
-        inCorrect:false,
-      },
-      {
-        answer:"",
-        inCorrect:false,
+        answer: "",
+        inCorrect: false,
       },
     ],
-    source:"",
-    question:"",
-    type:"image",
-    answers:[
+    source: "",
+    question: "",
+    type: "image",
+    answers: [
       {
-        answer:"",
-        inCorrect:false,
+        answer: "",
+        inCorrect: false,
       },
       {
-        answer:"",
-        inCorrect:false,
+        answer: "",
+        inCorrect: false,
       },
       {
-        answer:"",
-        inCorrect:false,
+        answer: "",
+        inCorrect: false,
       },
       {
-        answer:"",
-        inCorrect:false,
+        answer: "",
+        inCorrect: false,
       },
     ],
-  }
-]
+    source: "",
+    question: "",
+    type: "image",
+    answers: [
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+    ],
+    source: "",
+    question: "",
+    type: "image",
+    answers: [
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+    ],
+    source: "",
+    question: "",
+    type: "image",
+    answers: [
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+    ],
+    source: "",
+    question: "",
+    type: "image",
+    answers: [
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+    ],
+    source: "",
+    question: "",
+    type: "image",
+    answers: [
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+    ],
+    source: "",
+    question: "",
+    type: "image",
+    answers: [
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+    ],
+    source: "",
+    question: "",
+    type: "image",
+    answers: [
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+    ],
+    source: "",
+    question: "",
+    type: "image",
+    answers: [
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+      {
+        answer: "",
+        inCorrect: false,
+      },
+    ],
+  },
+];

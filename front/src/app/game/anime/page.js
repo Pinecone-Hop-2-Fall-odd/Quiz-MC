@@ -36,18 +36,19 @@ export default function PlayingQuiz() {
   }
 
   return (
-    <div className=" bg-[url('/anime.jpeg')] bg-cover flex justify-center">
+    <div className=" bg-[url('/anime.jpeg')] bg-cover h-[100vh] flex justify-center">
       <div
-        style={{ backgroundColor: "rgba(0 , 0, 0, 0.6)" }}
+        style={{ backgroundColor: "rgba(0 , 0, 0, 0.3)" }}
         className=" rounded-[20px] border-[5px] border-[#F4C1D2] flex flex-col mt-[120px] w-[1300px] h-[800px]  "
       >
         {!finish ? (
-          <div>
-            <div className="flex items-center w-[100%] flex-col h-[300px]">
+          <div className=" flex flex-col ">
+            <div className="flex items-center w-[100%] flex-col h-[300px] ">
               <div className="h-[400px]">
+                <h1 className="ans mt-[50px] border-b-[2px] mb-[30px] titi text-[50px] items-center text-[#61A2DA]">{`${answer[currentQuestion].question}`}</h1>
                 {answer[currentQuestion].type === "image" && (
                   <img
-                    className="h-[400px] bg-cover border-[5px] border-[#F4C1D2] mt-[40px] rounded-[15px]"
+                    className="h-[400px] bg-cover border-[5px] border-[#F4C1D2] mt-[40px] rounded-[15px] "
                     src={`/${answer[currentQuestion].source}`}
                   />
                 )}
@@ -55,16 +56,14 @@ export default function PlayingQuiz() {
               {answer[currentQuestion].type === "audio" && (
                 <AudioPlayer src={`/${answer[currentQuestion].source}`} />
               )}
-
-              <h1 className="mt-[50px] border-b-[2px] mb-[30px] titi text-[50px] text-[#F7424D]">{`${answer[currentQuestion].question}`}</h1>
             </div>
 
-            <div className="w-[100%] flex justify-center  items-center flex-row  ">
+            <div className="w-[100%] flex justify-center  items-center flex-row  mt-[300px] ">
               {answer[currentQuestion].answers.map((ans) => {
                 return (
                   <div className="h-[50px] flex justify-center  place-content-around">
                     <button
-                      onClick={(e) => {
+                      onClick={() => {
                         if (currentQuestion == 14) {
                           setFinish(true);
                         }
